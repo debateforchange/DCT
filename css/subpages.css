@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+html{
+    color: white;
+    background-color: #c40000;
+    font-size: 16px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+    vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'bebas-neue', sans-serif;
+}
+
+p, ul, li{
+    font-family: 'arima', sans-serif;
+}
+
+body {
+}
+
+#content {  
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 50%;
+    height: 15%;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+    z-index: -1;
+}
+
+header h1 {
+    letter-spacing: 5px;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px 4px 10px gray;
+}
+
+header p {
+    transform: translate(0%, 20%);
+    letter-spacing: 5px;
+    font-size: 2vw;
+    text-align: center;
+    display: inline-block;
+}
+
+header p a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 4px 10px gray;
+}
+
+nav {
+    width: 100%;
+    transform: translate(0%, 0%);
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    letter-spacing: 0.1em;
+    vertical-align: baseline;
+    justify-content: space-around;
+}
+
+nav ul img {
+    height: 5vw;
+    width: 5vw;
+    left: 50%;
+}
+
+.slogan {
+    z-index: 100;
+    bottom: 1;
+    display: inline-block;
+    letter-spacing: 5px;
+    font-size: 3.5vw;
+    text-align: center;
+}
