@@ -47,6 +47,14 @@ body {
     text-shadow: 0px 4px 10px gray;
 }
 
+#content header h2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0px 4px 10px gray;
+    transform: translate(0%, 50%);
+}
+
 #content button {
     font-size: 1vw;
     letter-spacing: 1.9px;
