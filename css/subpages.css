@@ -202,3 +202,22 @@ nav ul img {
     font-size: 3.5vw;
     text-align: center;
 }
+
+#teamphotos div.gallery {
+    margin: 5px;
+    float: left;
+    letter-spacing: 2px;
+    width: 25%;
+    margin-bottom: 10%;
+    align-items: flex-start;
+}
+
+#teamphotos div.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+#teamphotos div.desc {
+    padding: 5px;
+    text-align: center;
+}
