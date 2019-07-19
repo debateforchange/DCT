@@ -65,14 +65,11 @@ header p a{
     text-shadow: 0px 4px 10px gray;
 }
 
-#debate{text-shadow: 0px 4px 10px red;}
-#donate{text-shadow: 0px 4px 10px blue;}
-#celebrate{text-shadow: 0px 4px 10px green;}
-
 nav {
     width: 100%;
     transform: translate(0%, 0%);
     position: fixed;
+    text-shadow: 0px 4px 10px gray;
 }
 
 nav ul {
