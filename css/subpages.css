@@ -117,6 +117,54 @@ body {
     text-shadow: 0px 4px 10px gray;
 }
 
+.photoBlock h1 {
+    letter-spacing: 2px;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px 4px 10px gray;
+}
+
+.photoBlock {
+    width: 50%;
+    height: 100vh;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, 0%);
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    z-index: -1;
+}
+
+.photoBlock p {
+    transform: translate(0%, 20%);
+    letter-spacing: 2px;
+    font-size: 1vw;
+    display: inline-block;
+}
+
+.photoBlock p a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 4px 10px gray;
+}
+
+.photoBlock img {
+    width: 30%;
+    display: inline;
+    position: relative;
+    z-index: 100;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 #contactSplash {
     width: 50%;
     height: 15%;
@@ -162,6 +210,21 @@ body {
 
 #contactUs label {
     font-family: 'bebas-neue', sans-serif;
+}
+
+#Booklets a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+#Booklets img{
+    height: 400px;
+    width: auto;
+}
+
+#schedule {
+    visibility: hidden;
 }
 
 nav {
