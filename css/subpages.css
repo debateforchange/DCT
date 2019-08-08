@@ -266,21 +266,23 @@ nav ul img {
     text-align: center;
 }
 
+#teamphotos {
+    width: 50%;
+    transform: translate(57.4%, 20%);
+    position: absolute;
+}
+
 #teamphotos div.gallery {
-    margin: 5px;
-    float: left;
-    letter-spacing: 2px;
-    width: 25%;
-    margin-bottom: 10%;
-    align-items: flex-start;
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 10px;
 }
 
 #teamphotos div.gallery img {
-    width: 200px;
     height: 200px;
+    width: 200px;
 }
 
-#teamphotos div.desc {
-    padding: 5px;
-    text-align: center;
+#teamphotos div.gallery p {
+    padding: 2px;
 }
