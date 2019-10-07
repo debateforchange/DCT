@@ -86,14 +86,14 @@ body {
 
 .messageBlock {
     width: 50%;
-    height: 100vh;
+    height: 100%;
     display: block;
     left: 50%;
     top: 50%;
     transform: translate(50%, 0%);
     padding: 10px;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: justify;
     z-index: -1;
 }
 
@@ -267,8 +267,8 @@ nav ul img {
 }
 
 #teamphotos {
-    width: 50%;
-    transform: translate(57.4%, 20%);
+    width: 75%;
+    transform: translate(30.65%, 20%);
     position: absolute;
 }
 
