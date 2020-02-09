@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
 html{ 
     font-family: 'din-condensed', sans-serif;
     color: white;
@@ -160,6 +178,11 @@ nav ul img {
     transform: translateX(50%);
     top: 25%;
     color: black;
+}
+
+#warning-content {
+    width: 75%;
+    transform: translateX(15%)
 }
 
 #clos {

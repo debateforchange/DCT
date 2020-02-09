@@ -9,6 +9,22 @@
         
     <body>
         <main id="content">
+
+        <div id="warningback">
+            <button onclick="myFunction()" id="clos">Close</button>
+            <div id="warning">
+                <div id="warning-content">
+                    <h1>Corona Virus Update</h1><hr>
+                    <p>In consideration of health and safety, DCT 2020 has been postponed to a later date. Please check back here for our new tournament once it has been finalised.<br><br>
+                    For more information on the virus;<br>
+                    Please refer to the <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">World Health Organisation's website</a>.<br><br>
+                    For further reading regarding the virus;<br> 
+                    Please refer to <a href="https://www.thelancet.com/coronavirus">The Lancet</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
             
             <nav align="center">
                 <ul>
@@ -27,7 +43,19 @@
                 <h2>This page is under construction</h2>
             </header>
             
-        </main>
+        </main>       
+        
+        <!--Custom Modal-->
+        <script>
+        function myFunction() {
+          var x = document.getElementById("warningback");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
             
     </body>
 </html>
